@@ -12,7 +12,7 @@ TESTING
 
 ### Mock Website
 
-https://devangbaheti03.github.io/wtt-website/
+https://kholy0.github.io/batuegy.github.io/index.html
 
 ### Made By
 
