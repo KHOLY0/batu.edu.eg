@@ -532,7 +532,7 @@ h3 {
 .sub-header h1 {
   margin-top: 100px;
 }
-
+/* ------- about us -------   */
 .about-us {
   width: 80%;
   margin: auto;
@@ -569,6 +569,11 @@ h3 {
 .red-btn:hover {
   color: white;
 }
+video {
+  width: 100%;
+  height: auto;
+  
+  }
 
 /* ------- Blog -------   */
 
@@ -829,6 +834,7 @@ header-k12 {
   z-index: 1;
   right: 0;
 }
+
 
 .dropdown-content a {
   color: black;
