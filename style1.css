@@ -1,3 +1,144 @@
+:root {
+  --color-primary: #0073ff;
+  --color-white: #e9e9e9;
+  --color-black: #ffffff;
+  --color-black-1: #212b38;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.menu-bar {
+  background-color: var(--color-black);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+
+  position: relative;
+}
+
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu-bar ul li {
+  /* width: 120px; */
+  padding: 10px 30px;
+  /* text-align: center; */
+
+  position: relative;
+}
+li{
+  color: black;
+  width: auto;
+}
+
+.menu-bar ul li a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+
+  transition: all 0.3s;
+}
+.dropdown-menu-1 a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  right: 0;
+}
+.menu-bar ul li a:hover {
+  color: var(--color-primary);
+}
+
+.fas {
+  float: right;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+.fa-botton{
+   width: 100%; 
+  border: none;
+  padding: 18px 26px;
+  color: black;
+}
+
+
+
+/* dropdown menu style */
+.dropdown-menu {
+  display: none;
+}
+
+.nav-links ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+
+  top: 100%;
+  background-color: #076276;
+  right: 0;
+  min-width: 15px;
+  z-index: 1;
+  right: 0;
+  border-radius: 5%;
+}
+
+.nav-links ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+  
+  
+}
+
+.nav-links ul li:hover .dropdown-menu ul li {
+  width: 200px;
+  padding: 10px;
+  right: 0px;
+}
+
+.dropdown-menu-1 {
+  display: none;
+  
+}
+
+.dropdown-menu ul li:hover .dropdown-menu-1 {
+  display: block;
+  position: absolute;
+  right: 150px;
+  top: 0;
+  width: 210px;
+  padding: 10px;
+  background-color: #076276;
+  border-radius: 5%;
+  
+}
+
+.fa-botton----:hover,
+.fa-botton:hover {
+  background-color: #086d83
+}
+.nav-links ul li a:hover {
+  border-bottom:3px solid #30D5C8;
+  border-radius: 5%;
+  margin: auto;
+  transition: 0.3s;
+}
+
+
+
+---------------------------------------------------------------
 * {
     margin: 0;
     padding: 0;
@@ -65,7 +206,7 @@
     font-size: 13px;
   }
   
-  .nav-links ul li ::after {
+  /*.nav-links ul li ::after {
     content: "";
     width: 0%;
     height: 2px;
@@ -73,11 +214,11 @@
     display: block;
     margin: auto;
     transition: 0.3s;
-  }
+   } 
   
   .nav-links ul li :hover::after {
     width: 100%;
-  }
+  }*/
   
   .text-box {
     width: 90%;
@@ -759,7 +900,7 @@
   }
   
   #status.failure {
-    background-color: rgb(245, 60, 60);
+    background-color: #30D5C8;
     color: #fff;
     animation: status 4s ease forwards;
   }
